@@ -23,7 +23,7 @@
 	<properties>
 		<jdk.version>1.6</jdk.version>
 		<spring.version>3.1.2.RELEASE</spring.version>
-		<!-- <hibernate.version>4.1.4.Final</hibernate.version> -->
+		<hibernate.version>4.1.4.Final</hibernate.version>
 		<spring-data-jpa.version>1.1.0.RELEASE</spring-data-jpa.version>
 		<commons-dbcp.version>1.4</commons-dbcp.version>
 		<ehcache.version>2.5.2</ehcache.version>
@@ -156,7 +156,7 @@
 		<!-- SPRING end -->
 
 		<!-- PERSISTENCE begin -->
-		<!-- hibernate 
+		<!-- hibernate --> 
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
@@ -177,7 +177,7 @@
 			<artifactId>hibernate-jpa-2.0-api</artifactId>
 			<version>1.0.1.Final</version>
 		</dependency>
-		-->
+		
 		<!-- spring data access -->
 		<dependency>
 			<groupId>org.springframework.data</groupId>
